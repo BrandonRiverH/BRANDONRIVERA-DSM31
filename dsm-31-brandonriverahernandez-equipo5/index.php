@@ -6,12 +6,14 @@ include("layout/header.php");
    <div class="container-fluid">
             <div class="container">
                 <h1>Inicio</h1>
-                    <p>Este es nuestro Dashboard del proyecto Previsualizador de Diseños.
+                    <p>Dashboard del proyecto del equipo 5
                         <br>
-                        Aqui encontrarás los registros que se encuentran en nuestro sistema
-                        Desde los usuarios, categorias, etc. 
+                        En este apartado se encuentran por secciones los atributos y categorias
+                         importantes como los usuarios, las citas, etc.
+                        
                         <br>
-                        Hasta poder gestionar esos datos, crear nuevos registros o eliminarlos.
+                        Se podran gestionar los datos de las herramientas, con la funcion 
+                        de eliminar,crear y agregar.
                     </p>
             </div>
     </div>

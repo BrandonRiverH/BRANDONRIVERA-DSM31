@@ -1,11 +1,4 @@
-    <!-- Footer -->
-    <footer class="sticky-footer bg-white">
-        <div class="container my-auto">
-            <div class="copyright text-center my-auto">
-                <span>Copyright &copy; Previsualizador 2023</span>
-            </div>
-        </div>
-    </footer>
+  
     <!-- End of Footer -->
     </div>
     <!-- End of Content Wrapper -->
@@ -31,7 +24,7 @@
                 <div class="modal-body">Selecciona "Salir" para volver al login</div>
                 <div class="modal-footer">
                     <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancelar</button>
-                    <a class="btn btn-primary" href="http://localhost/BRANDONRIVERA-DSM31/dsm-31-brandonriverahernandez-equipo5/views/auth/login.php">Salir</a>
+                    <a class="btn btn-primary" href="/BRANDONRIVERA-DSM31/dsm-31-brandonriverahernandez-equipo5/views/auth/login/index.php">Salir</a>
                 </div>
             </div>
         </div>

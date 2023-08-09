@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Previsualizador - Dashboard</title>
+    <title>Previsualizador</title>
 
     <!-- Custom styles for this template -->
     <link href="http://localhost/BRANDONRIVERA-DSM31/dsm-31-brandonriverahernandez-equipo5/resource/css/sb-admin-2.min.css" rel="stylesheet">
@@ -40,7 +40,7 @@
                 <div class="sidebar-brand-icon rotate-n-15">
                     <i class=""></i>
                 </div>
-                <div class="sidebar-brand-text mx-3">Previsualizador Admin</div>
+                <div class="sidebar-brand-text mx-3">SOMOS BARBEROS!</div>
             </a>
 
             <!-- Divider -->
@@ -72,25 +72,31 @@
             <li class="nav-item">
                 <a class="nav-link" href="http://localhost/BRANDONRIVERA-DSM31/dsm-31-brandonriverahernandez-equipo5/views/type-users/index.php">
                     <i class="fas fa-fw fa-table"></i>
-                    <span>Tipos de Usuario</span></a>
+                    <span>Tipo de Usuario</span></a>
             </li>
        
             <li class="nav-item">
-                <a class="nav-link" href="http://localhost/BRANDONRIVERA-DSM31/dsm-31-brandonriverahernandez-equipo5/views/products/index.php">
+                <a class="nav-link" href="http://localhost/BRANDONRIVERA-DSM31/dsm-31-brandonriverahernandez-equipo5/views/tipo_de_servicio/index.php">
                     <i class="fas fa-fw fa-table"></i>
-                    <span>Productos</span></a>
+                    <span>Tipo de Servicio</span></a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="http://localhost/BRANDONRIVERA-DSM31/dsm-31-brandonriverahernandez-equipo5/views/categories/index.php">
+                <a class="nav-link" href="http://localhost/BRANDONRIVERA-DSM31/dsm-31-brandonriverahernandez-equipo5/views/servicio/index.php">
                     <i class="fas fa-fw fa-table"></i>
-                    <span>Categorias</span></a>
+                    <span>Servicio</span></a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="http://localhost/BRANDONRIVERA-DSM31/dsm-31-brandonriverahernandez-equipo5/views/sub-categories/index.php">
+                <a class="nav-link" href="http://localhost/BRANDONRIVERA-DSM31/dsm-31-brandonriverahernandez-equipo5/views/cita/index.php">
                     <i class="fas fa-fw fa-table"></i>
-                    <span>Sub-Categorias</span></a>
+                    <span>Cita</span></a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="http://localhost/BRANDONRIVERA-DSM31/dsm-31-brandonriverahernandez-equipo5/views/agenda/index.php">
+                    <i class="fas fa-fw fa-table"></i>
+                    <span>Agenda</span></a>
             </li>
 
             <li class="nav-item">
@@ -100,9 +106,15 @@
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="http://localhost/BRANDONRIVERA-DSM31/dsm-31-brandonriverahernandez-equipo5/views/municipio/index.php">
+                <a class="nav-link" href="http://localhost/BRANDONRIVERA-DSM31/dsm-31-brandonriverahernandez-equipo5/views/municipios/index.php">
                     <i class="fas fa-fw fa-table"></i>
                     <span>Municipios</span></a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="http://localhost/BRANDONRIVERA-DSM31/dsm-31-brandonriverahernandez-equipo5/views/barberia/index.php">
+                    <i class="fas fa-fw fa-table"></i>
+                    <span>Barberia</span></a>
             </li>
 
             <!-- Divider -->
@@ -113,12 +125,7 @@
                 <button class="rounded-circle border-0" id="sidebarToggle"></button>
             </div>
 
-            <!-- Sidebar Message -->
-            <div class="sidebar-card d-none d-lg-flex">
-                <img class="sidebar-card-illustration mb-2" src="http://localhost/BRANDONRIVERA-DSM31/dsm-31-brandonriverahernandez-equipo5/resource/img/undraw_rocket.svg" alt="...">
-                <p class="text-center mb-2"><strong>SB Admin Pro</strong> is packed with premium features, components, and more!</p>
-                <a class="btn btn-success btn-sm" href="https://startbootstrap.com/theme/sb-admin-pro">Upgrade to Pro!</a>
-            </div>
+            
 
         </ul>
         <!-- End of Sidebar -->

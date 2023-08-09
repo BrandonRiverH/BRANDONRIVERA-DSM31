@@ -57,6 +57,15 @@
                                         </tr>
                                     </tfoot>
                                     <tbody>
+
+                                    <?php
+                                        include __DIR__ . '/../../database/conexion.php';
+
+                                        $sql = ("SELECT * FROM usuario");
+
+                                        
+                                    ?>
+
                                         <tr>
                                             <td>Tiger Nixon</td>
                                             <td>System Architect</td>
